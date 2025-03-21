@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Higer_lower_game.iml" filepath="$PROJECT_DIR$/.idea/Higer_lower_game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Higher_lower_game/.idea/Higher_lower_game.iml" filepath="$PROJECT_DIR$/../Higher_lower_game/.idea/Higher_lower_game.iml" />
     </modules>
   </component>
 </project>
