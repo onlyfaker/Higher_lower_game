@@ -1,9 +1,4 @@
-#todo - generate a random key from a list of instagram users
-#todo - compare random 2 ones and see which one has more followers,
-#todo - take the B answer and make it an A anser if you are correct, and generate a random one for another B answer
-#todo - continue until you are wrong and show final score
 import random
-
 from art import LOGO,VS
 from word_dictionary import INSTAGRAM_USERS_DICTIONARY
 
@@ -14,7 +9,7 @@ def return_country(user):
 def return_followers(user):
     return insta_users[user]["followers"]
 
-def more_followers(user_a,user_b):
+def compare_followers(user_a,user_b):
     if return_followers(user_a) > return_followers(user_b):
         return True
     else:
@@ -34,7 +29,9 @@ print(A_user,',',return_proffesion(A_user),',',return_country(A_user),return_fol
 print(VS)
 print(B_user,',',return_proffesion(B_user),',',return_country(B_user),return_followers(B_user))
 
-print(more_followers(A_user,B_user))
-
-
+#todo - user choice who has more follower and check if got it right
+#todo - count the score of each correct guess
+#todo - see if when one user is compared, can you get the same user agai or not
+#todo - take the B answer and make it an A anser if you are correct, and generate a random one for another B answer
+#todo - continue until you are wrong and show final score
 
