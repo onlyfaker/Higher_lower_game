@@ -9,8 +9,8 @@ from word_dictionary import INSTAGRAM_USERS_DICTIONARY
 
 print(LOGO)
 insta_users = INSTAGRAM_USERS_DICTIONARY
-random_choice = random.choice(list(insta_users.keys()))
-print(random_choice)
 
+random_choice = random.choice(list(insta_users.keys()))
+
+print(random_choice)
 print(insta_users[random_choice]["followers"])
-# for item in insta_users:
