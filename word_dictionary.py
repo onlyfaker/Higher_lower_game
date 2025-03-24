@@ -1,152 +1,53 @@
 INSTAGRAM_USERS_DICTIONARY = {
-    "Maluma": {
-        "profession": "Musician",
-        "country": "Colombia",
-        "followers": 64000000
-    },
-    "Cristiano Ronaldo": {
-        "profession": "Footballer",
-        "country": "Portugal",
-        "followers": 650000000
-    },
-    "Kylie Jenner": {
-        "profession": "Entrepreneur",
-        "country": "USA",
-        "followers": 394000000
-    },
-    "Zendaya": {
-        "profession": "Actress",
-        "country": "USA",
-        "followers": 179000000
-    },
-    "Dua Lipa": {
-        "profession": "Musician",
-        "country": "UK",
-        "followers": 89000000
-    },
-    "Nike": {
-        "profession": "Sportswear Brand",
-        "country": "USA",
-        "followers": 301000000
-    },
-    "National Geographic": {
-        "profession": "Media Company",
-        "country": "USA",
-        "followers": 279000000
-    },
-    "Instagram": {
-        "profession": "Social Media Platform",
-        "country": "Global",
-        "followers": 650000000
-    },
-    "NASA": {
-        "profession": "Space Agency",
-        "country": "USA",
-        "followers": 90000000
-    },
-    "Beyoncé": {
-        "profession": "Musician",
-        "country": "USA",
-        "followers": 312000000
-    },
-    "Justin Bieber": {
-        "profession": "Musician",
-        "country": "Canada",
-        "followers": 294000000
-    },
-    "Lionel Messi": {
-        "profession": "Footballer",
-        "country": "Argentina",
-        "followers": 505000000
-    },
-    "Kim Kardashian": {
-        "profession": "Entrepreneur",
-        "country": "USA",
-        "followers": 357000000
-    },
-    "Virat Kohli": {
-        "profession": "Cricketer",
-        "country": "India",
-        "followers": 270000000
-    },
-    "Apple": {
-        "profession": "Tech Company",
-        "country": "USA",
-        "followers": 300000000
-    },
-    "Louis Vuitton": {
-        "profession": "Luxury Fashion Brand",
-        "country": "France",
-        "followers": 55000000
-    },
-    "Shakira": {
-        "profession": "Musician",
-        "country": "Colombia",
-        "followers": 90000000
-    },
-    "Netflix": {
-        "profession": "Streaming Service",
-        "country": "USA",
-        "followers": 45000000
-    },
-    "FC Barcelona": {
-        "profession": "Football Club",
-        "country": "Spain",
-        "followers": 173000000
-    },
-    "Real Madrid": {
-        "profession": "Football Club",
-        "country": "Spain",
-        "followers": 173000000
-    },
-    "Adidas": {
-        "profession": "Sportswear Brand",
-        "country": "Germany",
-        "followers": 30000000
-    },
-    "Selena Gomez": {
-        "profession": "Musician",
-        "country": "USA",
-        "followers": 421000000
-    },
-    "Kanye West": {
-        "profession": "Musician",
-        "country": "USA",
-        "followers": 18000000
-    },
-    "BMW": {
-        "profession": "Automobile Manufacturer",
-        "country": "Germany",
-        "followers": 36000000
-    },
-    "Tesla": {
-        "profession": "Automobile Manufacturer",
-        "country": "USA",
-        "followers": 10000000
-    },
-    "Google": {
-        "profession": "Tech Company",
-        "country": "USA",
-        "followers": 26000000
-    },
-    "Amazon": {
-        "profession": "E-commerce",
-        "country": "USA",
-        "followers": 42000000
-    },
-    "Disney": {
-        "profession": "Entertainment Company",
-        "country": "USA",
-        "followers": 40000000
-    },
-    "McDonald's": {
-        "profession": "Fast Food Chain",
-        "country": "USA",
-        "followers": 52000000
-    },
-    "The Rock": {
-        "profession": "Actor",
-        "country": "USA",
-        "followers": 394000000
-    }
+    "Maluma": {"profession": "Musician", "country": "Colombia", "followers": 64000000},
+    "Cristiano Ronaldo": {"profession": "Footballer", "country": "Portugal", "followers": 650000000},
+    "Kylie Jenner": {"profession": "Entrepreneur", "country": "USA", "followers": 394000000},
+    "Zendaya": {"profession": "Actress", "country": "USA", "followers": 179000000},
+    "Dua Lipa": {"profession": "Musician", "country": "UK", "followers": 89000000},
+    "Nike": {"profession": "Sportswear Brand", "country": "USA", "followers": 301000000},
+    "National Geographic": {"profession": "Media Company", "country": "USA", "followers": 279000000},
+    "Instagram": {"profession": "Social Media Platform", "country": "Global", "followers": 650000000},
+    "NASA": {"profession": "Space Agency", "country": "USA", "followers": 90000000},
+    "Beyoncé": {"profession": "Musician", "country": "USA", "followers": 312000000},
+    "Justin Bieber": {"profession": "Musician", "country": "Canada", "followers": 294000000},
+    "Lionel Messi": {"profession": "Footballer", "country": "Argentina", "followers": 505000000},
+    "Kim Kardashian": {"profession": "Entrepreneur", "country": "USA", "followers": 357000000},
+    "Virat Kohli": {"profession": "Cricketer", "country": "India", "followers": 270000000},
+    "Apple": {"profession": "Tech Company", "country": "USA", "followers": 300000000},
+    "Louis Vuitton": {"profession": "Luxury Fashion Brand", "country": "France", "followers": 55000000},
+    "Shakira": {"profession": "Musician", "country": "Colombia", "followers": 90000000},
+    "Netflix": {"profession": "Streaming Service", "country": "USA", "followers": 45000000},
+    "FC Barcelona": {"profession": "Football Club", "country": "Spain", "followers": 173000000},
+    "Real Madrid": {"profession": "Football Club", "country": "Spain", "followers": 173000000},
+    "Adidas": {"profession": "Sportswear Brand", "country": "Germany", "followers": 30000000},
+    "Selena Gomez": {"profession": "Musician", "country": "USA", "followers": 421000000},
+    "Kanye West": {"profession": "Musician", "country": "USA", "followers": 18000000},
+    "BMW": {"profession": "Automobile Manufacturer", "country": "Germany", "followers": 36000000},
+    "Tesla": {"profession": "Automobile Manufacturer", "country": "USA", "followers": 10000000},
+    "Google": {"profession": "Tech Company", "country": "USA", "followers": 26000000},
+    "Amazon": {"profession": "E-commerce", "country": "USA", "followers": 42000000},
+    "Disney": {"profession": "Entertainment Company", "country": "USA", "followers": 40000000},
+    "McDonald's": {"profession": "Fast Food Chain", "country": "USA", "followers": 52000000},
+    "The Rock": {"profession": "Actor", "country": "USA", "followers": 394000000},
+    "Ariana Grande": {"profession": "Musician", "country": "USA", "followers": 377000000},
+    "Billie Eilish": {"profession": "Musician", "country": "USA", "followers": 110000000},
+    "LeBron James": {"profession": "Basketball Player", "country": "USA", "followers": 158000000},
+    "Kendall Jenner": {"profession": "Model", "country": "USA", "followers": 294000000},
+    "Drake": {"profession": "Musician", "country": "Canada", "followers": 142000000},
+    "Rihanna": {"profession": "Musician", "country": "Barbados", "followers": 153000000},
+    "Conor McGregor": {"profession": "MMA Fighter", "country": "Ireland", "followers": 47400000},
+    "PSG": {"profession": "Football Club", "country": "France", "followers": 71400000},
+    "Juventus": {"profession": "Football Club", "country": "Italy", "followers": 57800000},
+    "Manchester United": {"profession": "Football Club", "country": "UK", "followers": 61900000},
+    "FIFA": {"profession": "Sports Organization", "country": "Global", "followers": 31100000},
+    "Balenciaga": {"profession": "Luxury Fashion Brand", "country": "France", "followers": 14500000},
+    "Lamborghini": {"profession": "Automobile Manufacturer", "country": "Italy", "followers": 32000000},
+    "Ferrari": {"profession": "Automobile Manufacturer", "country": "Italy", "followers": 27000000},
+    "Puma": {"profession": "Sportswear Brand", "country": "Germany", "followers": 14000000},
+    "Supreme": {"profession": "Fashion Brand", "country": "USA", "followers": 14000000},
+    "Elon Musk": {"profession": "Entrepreneur", "country": "USA", "followers": 85000000},
+    "Mark Zuckerberg": {"profession": "Entrepreneur", "country": "USA", "followers": 12300000},
+    "Tom Holland": {"profession": "Actor", "country": "UK", "followers": 48000000},
+    "Will Smith": {"profession": "Actor", "country": "USA", "followers": 64300000},
+    "Harry Styles": {"profession": "Musician", "country": "UK", "followers": 48000000}
 }
