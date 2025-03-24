@@ -21,17 +21,35 @@ def random_user_choice(instagram_users_dict):
 print(LOGO)
 insta_users = INSTAGRAM_USERS_DICTIONARY
 
+score = 0
+game = True
+while(game!=False):
+    A_user = random_user_choice(insta_users)
+    B_user = random_user_choice(insta_users)
+    if A_user==B_user:
+        B_user = random_user_choice(insta_users)
 
-A_user = random_user_choice(insta_users)
-B_user = random_user_choice(insta_users)
+    print(A_user, ',', return_proffesion(A_user), ',', return_country(A_user), return_followers(A_user))
+    print(VS)
+    print(B_user, ',', return_proffesion(B_user), ',', return_country(B_user), return_followers(B_user))
 
-print(A_user,',',return_proffesion(A_user),',',return_country(A_user),return_followers(A_user))
-print(VS)
-print(B_user,',',return_proffesion(B_user),',',return_country(B_user),return_followers(B_user))
+    user_guess = input("Who has more followers 'A' or 'B': ").lower()
+    if user_guess=='a':
+        if compare_followers(A_user,B_user)==True:
+            score+=1
+            print('correct, current score: ',score)
+        else:
+            print('wrong, final score ',score)
+            break
+    if user_guess=='b':
+        if compare_followers(A_user,B_user)==False:
+            score+=1
+            print('correct, current score: ',score)
+        else:
+            print('wrong, final score ',score)
+            break
 
-#todo - user choice who has more follower and check if got it right
-#todo - count the score of each correct guess
 #todo - see if when one user is compared, can you get the same user agai or not
-#todo - take the B answer and make it an A anser if you are correct, and generate a random one for another B answer
+#todo - take the B answer and make it an A answer if you are correct, and generate a random one for another B answer
 #todo - continue until you are wrong and show final score
 
