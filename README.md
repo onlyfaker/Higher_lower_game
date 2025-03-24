@@ -1,4 +1,4 @@
-# Higher Lower Instagram Game
+# Higher Lower Instagram Followers Game
 A command-line game that challenges players to guess which Instagram user has more followers.
 
 ## 📝 Description
@@ -82,8 +82,6 @@ higher-lower-instagram-game/
 ## 📋 Requirements
 
 - Python 3.6 or higher
-- # Higher Lower Instagram Game
-A command-line game that challenges players to guess which Instagram user has more followers, written in Python.
-
+- 
 ## 📝 License
 This project is open source and available under the [MIT License](LICENSE)..
