@@ -1,7 +1,7 @@
 import random
 from art import LOGO,VS
 from word_dictionary import INSTAGRAM_USERS_DICTIONARY
-
+#todo - track of the highscore can be done in the future by including a text file?
 def return_proffesion(user):
     return insta_users[user]["profession"]
 def return_country(user):
@@ -30,29 +30,29 @@ while(game!=False):
     while(A_user==B_user):
         B_user = random_user_choice(insta_users)
 
-    print("\n"+A_user, ',', return_proffesion(A_user), ',', return_country(A_user), return_followers(A_user))
+    print("\nCompare A: "+A_user, ',', return_proffesion(A_user), ',', return_country(A_user), return_followers(A_user))
     print(VS)
-    print(B_user, ',', return_proffesion(B_user), ',', return_country(B_user), return_followers(B_user),'\n')
+    print("Against B: "+B_user, ',', return_proffesion(B_user), ',', return_country(B_user), return_followers(B_user),'\n')
 
-    user_guess = input("Who has more followers 'A' or 'B': ").lower()
+    user_guess = input("Who has more followers? Type 'A' or 'B': ").lower()
     while(user_guess!='a' and user_guess!='b'):
-        user_guess = input("Wrong input!Try again! Who has more followers 'A' or 'B': ").lower()
+        user_guess = input("Wrong input!Try again! Who has more followers? Type 'A' or 'B': ").lower()
 
     if user_guess=='a':
         if compare_followers(A_user,B_user)==True:
             score+=1
             A_user=B_user
-            print('correct, current score: ',score)
+            print("You're right! Current score: ",score)
         else:
-            print('wrong, final score ',score)
+            print("Sorry that's wrong. Final score: ",score)
             break
     if user_guess=='b':
         if compare_followers(A_user,B_user)==False:
             score+=1
             A_user=B_user
-            print('correct, current score: ',score)
+            print("You're right! Current score: ",score)
         else:
-            print('wrong, final score ',score)
+            print("Sorry that's wrong. Final score: ",score)
             break
 
 
