@@ -30,9 +30,9 @@ while(game!=False):
     while(A_user==B_user):
         B_user = random_user_choice(insta_users)
 
-    print("\nCompare A: "+A_user, ',', return_proffesion(A_user), ',', return_country(A_user), return_followers(A_user))
+    print("\nCompare A: "+A_user, ',', return_proffesion(A_user), ',', return_country(A_user))
     print(VS)
-    print("Against B: "+B_user, ',', return_proffesion(B_user), ',', return_country(B_user), return_followers(B_user),'\n')
+    print("Against B: "+B_user, ',', return_proffesion(B_user), ',', return_country(B_user),'\n')
 
     user_guess = input("Who has more followers? Type 'A' or 'B': ").lower()
     while(user_guess!='a' and user_guess!='b'):
